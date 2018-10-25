@@ -1,0 +1,125 @@
+@font-face {
+	font-family: youmurderer;
+	src: url(fonts/youmurderer/youmurderer.ttf);
+}
+
+@font-face {
+	font-family: alphadance;
+	src: url(fonts/alphadance/alphadance.ttf);
+}
+
+@font-face {
+	font-family: theunseen;
+	src: url(fonts/theunseen/theunseen.ttf);
+}
+
+body {
+	color: white;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 59px;
+	font-family: alphadance, 'roboto';
+	background-color: rgb(25, 25, 25);
+	font-size: 20px;
+}
+
+h1 {
+	font-family: youmurderer, serif;
+}
+
+h2 {
+	font-family: youmurderer,serif;
+	margin-bottom: 10px;
+	font-size: 36px;
+}
+
+.header-image {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	margin-bottom: 0px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header-home{
+	background-image: url("photos/index-halloween.jpg");
+}
+
+.header-recipeone {
+	background-image: url("photos/recipeone/marshmallowtreats.jpg");
+}
+
+.header-recipetwo{
+	background-image: url(photos/recipetwo/chocolatebark.png);
+}
+
+.home-header-text {
+	top: 74vh;
+	left: 40px;
+	color: white;
+	font-size: 8vw;
+	display: inline;
+	text-align: center;
+	position: relative;
+	text-shadow: 0 3px 6px rgba(0 ,0, 0, 0.30);
+}
+
+.main {
+	padding: 30px;
+}
+
+.recipesource {
+	font-size: 15px;
+}
+
+.ingredients {
+	color: rgb(244, 161, 66);
+	text-shadow: 0 3px 6px rgba(0 ,0, 0, 0.30);
+}
+
+.directions {
+	color: rgb(155, 21, 21);
+	text-shadow: 0 3px 6px rgba(0 ,0, 0, 0.30);
+}
+
+.credit-link {
+	color: white;
+}
+
+/*Start of Navigation Bar*/
+.nav-bar {
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+	list-style-type: none;
+	background-color: rgb(254, 128, 0);
+	box-shadow: 0 10px 10px rgba(0 ,0, 0, 0.22);
+}
+
+.nav-bar li {
+	float: left;
+}
+
+.nav-bar li a {
+	font-family: theunseen, sans-serif;
+	color: white;
+	display: block;
+	padding: 20px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+	
+.nav-bar li a:hover {
+	color: white;
+	background-color: #0259ee;
+}
+
+.active {
+	color: white;
+	background-color: black;
+}
